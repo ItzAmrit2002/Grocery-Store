@@ -1,0 +1,102 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 0;
+    margin: 0;
+    background-color: #343A40;
+    justify-content: space-between;
+    padding-left: 1rem;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar__container ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar__resume{
+    margin: 0 10px;
+    display: flex;
+}
+
+.portfolio {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition:font-size 1s;
+    font-family: Cedarville Cursive;
+    
+    
+
+}
+
+
+
+.c_button {
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 50px;
+    font-size: 1.1rem;
+    border: 2px solid #ffffff;
+    font-family: Raleway;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 2s;
+    
+
+}
+
+.c_button:hover {
+    cursor: pointer;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: black;
+
+
+}
+
+
+
+.navbar__container ul li {
+    padding: 5px 15px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 650;
+    border-bottom: 1px solid #343A40;
+    transition: font-size 1.5s;
+    display: flex;
+    transition: all 1s;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto Serif;
+}
+.navbar__container ul li:hover{
+    
+    border-color: #ffffff;
+}
+.navbar__container ul li a {
+    text-decoration: none;
+}
+.navbar__container ul li h4 {
+    padding-left: 3px;
+}
+
+.navbar__container ul li ScrollLink{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

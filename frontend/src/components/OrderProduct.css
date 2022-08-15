@@ -1,0 +1,42 @@
+.orderProduct{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.orderProduct__info{
+    padding-left: 20px;
+
+}
+
+.orderProduct__info button {
+    background: #0284FE;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.orderProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.orderProduct__rating{
+    display: flex;
+}
+
+.orderProduct__title{
+    font-size: 17px;
+    font-weight: 800;
+    
+}
