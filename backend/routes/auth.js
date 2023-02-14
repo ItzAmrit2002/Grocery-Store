@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs')
 router.post('/register', async (req, res) => {
 
     const {name, email, password} = req.body
-    console.log(name +' ' + email + ' ' + password)
+    // console.log(name +' ' + email + ' ' + password)
 
     if(!name || !email || !password){
         res.status(400).send("Please add all fields")
